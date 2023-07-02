@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.canteenease_savorysolutions.ChooseController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="107.0" fitWidth="143.0" layoutX="128.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#945353" layoutX="118.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your shope" textAlignment="CENTER" wrappingWidth="364.13671875">
+         <font>
+            <Font name="Cambria Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="89.0" fitWidth="143.0" layoutX="320.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="129.0" layoutY="240.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="142.0" style="-fx-background-color: orange; -fx-background-radius: 8;" text="Khan's Kitchen" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="320.0" layoutY="240.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="142.0" style="-fx-background-color: orange; -fx-background-radius: 8;" text="Olympia Cafe" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="499.0" layoutY="327.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="60.0" style="-fx-background-radius: 8; -fx-background-color: #FDD4A5;" text="Logout">
+         <font>
+            <Font name="Cambria Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
