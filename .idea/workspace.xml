@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dcabb43-5bf9-48ef-bc0d-27b1d82cc966" name="Changes" comment="first commit">
+    <list default="true" id="7dcabb43-5bf9-48ef-bc0d-27b1d82cc966" name="Changes" comment="OrderLists changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/OrderLists.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/OrderLists.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/canteenease_savorysolutions/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/canteenease_savorysolutions/AdminPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/AdminPanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/AdminPanel.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,6 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2S4K5MODYexYp9foUu7KGUICMjj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +53,40 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Homepage">
+    <configuration name="AdminPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.canteenease_savorysolutions.AdminPanel" />
+      <module name="CanteenEase_SavorySolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.canteenease_savorysolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homepage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.canteenease_savorysolutions.Homepage" />
+      <module name="CanteenEase_SavorySolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.canteenease_savorysolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Homepage" />
+        <item itemvalue="Application.AdminPanel" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688400234063</updated>
-      <workItem from="1688400235230" duration="3014000" />
+      <workItem from="1688400235230" duration="4859000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1688406614464</created>
@@ -65,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688406614464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OrderLists changes">
+      <created>1688408269644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688408269644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="OrderLists changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="OrderLists changes" />
   </component>
 </project>
