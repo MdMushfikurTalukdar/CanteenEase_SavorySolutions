@@ -1,0 +1,451 @@
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1688402089919)
++++ b/.idea/uiDesigner.xml	(date 1688402089919)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/main/resources/com/example/canteenease_savorysolutions/KhanSnack.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/com/example/canteenease_savorysolutions/KhanSnack.fxml b/src/main/resources/com/example/canteenease_savorysolutions/KhanSnack.fxml
+new file mode 100644
+--- /dev/null	(date 1688404211677)
++++ b/src/main/resources/com/example/canteenease_savorysolutions/KhanSnack.fxml	(date 1688404211677)
+@@ -0,0 +1,71 @@
++<?xml version="1.0" encoding="UTF-8"?>
++
++<?import javafx.scene.control.Button?>
++<?import javafx.scene.control.Label?>
++<?import javafx.scene.control.TextField?>
++<?import javafx.scene.image.Image?>
++<?import javafx.scene.image.ImageView?>
++<?import javafx.scene.layout.AnchorPane?>
++<?import javafx.scene.layout.Pane?>
++<?import javafx.scene.text.Font?>
++
++<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
++   <children>
++      <Label layoutX="232.0" layoutY="55.0" prefHeight="29.0" prefWidth="135.0" text="Pick Your Snacks" textAlignment="CENTER">
++         <font>
++            <Font name="Agency FB" size="24.0" />
++         </font>
++      </Label>
++      <Pane layoutX="36.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Pane layoutX="456.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Pane layoutX="316.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Pane layoutX="176.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Button layoutX="246.0" layoutY="337.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="107.0" style="-fx-background-color: orange;" text="Order" />
++      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="68.0" style="-fx-background-color: yellow;" text="Back" />
++      <Button layoutX="516.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="68.0" style="-fx-background-color: Red;" text="Log Out" textFill="WHITE" />
++   </children>
++</AnchorPane>
+Index: src/main/resources/com/example/canteenease_savorysolutions/OlympiaSnack.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/com/example/canteenease_savorysolutions/OlympiaSnack.fxml b/src/main/resources/com/example/canteenease_savorysolutions/OlympiaSnack.fxml
+new file mode 100644
+--- /dev/null	(date 1688404211677)
++++ b/src/main/resources/com/example/canteenease_savorysolutions/OlympiaSnack.fxml	(date 1688404211677)
+@@ -0,0 +1,71 @@
++<?xml version="1.0" encoding="UTF-8"?>
++
++<?import javafx.scene.control.Button?>
++<?import javafx.scene.control.Label?>
++<?import javafx.scene.control.TextField?>
++<?import javafx.scene.image.Image?>
++<?import javafx.scene.image.ImageView?>
++<?import javafx.scene.layout.AnchorPane?>
++<?import javafx.scene.layout.Pane?>
++<?import javafx.scene.text.Font?>
++
++<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
++   <children>
++      <Label layoutX="232.0" layoutY="55.0" prefHeight="29.0" prefWidth="135.0" text="Pick Your Snacks" textAlignment="CENTER">
++         <font>
++            <Font name="Agency FB" size="24.0" />
++         </font>
++      </Label>
++      <Pane layoutX="36.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Pane layoutX="456.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Pane layoutX="316.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Pane layoutX="176.0" layoutY="138.0" prefHeight="185.0" prefWidth="120.0">
++         <children>
++            <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@home.jpg" />
++               </image>
++            </ImageView>
++            <Label layoutX="42.0" layoutY="93.0" text="Burger" />
++            <Label layoutX="26.0" layoutY="110.0" text="Cost 45 Taka" />
++            <TextField alignment="CENTER" layoutX="15.0" layoutY="146.0" prefHeight="25.0" prefWidth="90.0" promptText="Quantity" />
++         </children>
++      </Pane>
++      <Button layoutX="246.0" layoutY="337.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="107.0" style="-fx-background-color: orange;" text="Order" />
++      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="68.0" style="-fx-background-color: yellow;" text="Back" />
++      <Button layoutX="516.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="68.0" style="-fx-background-color: Red;" text="Log Out" textFill="WHITE" />
++   </children>
++</AnchorPane>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7dcabb43-5bf9-48ef-bc0d-27b1d82cc966\" name=\"Changes\" comment=\"first commit\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/OrderLists.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/OrderLists.fxml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"FxmlFile\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2S4K5MODYexYp9foUu7KGUICMjj\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"last_opened_file_path\": \"E:/AOOP/011201262/CanteenEase_SavorySolutions\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7dcabb43-5bf9-48ef-bc0d-27b1d82cc966\" name=\"Changes\" comment=\"\" />\r\n      <created>1688400234063</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1688400234063</updated>\r\n      <workItem from=\"1688400235230\" duration=\"3014000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <created>1688406614464</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688406614464</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b8ec02c0ac13926729ba63433b66da229aeba4a9)
++++ b/.idea/workspace.xml	(date 1688402779467)
+@@ -5,8 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="7dcabb43-5bf9-48ef-bc0d-27b1d82cc966" name="Changes" comment="first commit">
++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/canteenease_savorysolutions/KhanSnack.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/canteenease_savorysolutions/KhanSnackController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/KhanSnack.fxml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/OrderLists.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/canteenease_savorysolutions/OrderLists.fxml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -17,6 +20,7 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="FxmlFile" />
++        <option value="Class" />
+       </list>
+     </option>
+   </component>
+@@ -31,6 +35,9 @@
+     </option>
+   </component>
+   <component name="ProjectId" id="2S4K5MODYexYp9foUu7KGUICMjj" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -38,6 +45,7 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "WebServerToolWindowFactoryState": "false",
+     "git-widget-placeholder": "main",
+     "last_opened_file_path": "E:/AOOP/011201262/CanteenEase_SavorySolutions",
+@@ -45,9 +53,44 @@
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
++    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RunManager" selected="Application.KhanSnack">
++    <configuration name="Homepage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.example.canteenease_savorysolutions.Homepage" />
++      <module name="CanteenEase_SavorySolutions" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.example.canteenease_savorysolutions.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="KhanSnack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.example.canteenease_savorysolutions.KhanSnack" />
++      <module name="CanteenEase_SavorySolutions" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.example.canteenease_savorysolutions.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.KhanSnack" />
++        <item itemvalue="Application.Homepage" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -57,6 +100,9 @@
+       <option name="presentableId" value="Default" />
+       <updated>1688400234063</updated>
+       <workItem from="1688400235230" duration="3014000" />
++      <workItem from="1688401083218" duration="557000" />
++      <workItem from="1688401658607" duration="49000" />
++      <workItem from="1688401717097" duration="1061000" />
+     </task>
+     <task id="LOCAL-00001" summary="first commit">
+       <created>1688406614464</created>
+@@ -70,6 +116,49 @@
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="RECENT_FILTERS">
++      <map>
++        <entry key="Branch">
++          <value>
++            <list>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="main" />
++                </option>
++              </RecentGroup>
++            </list>
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="true" />
++                </map>
++              </option>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="first commit" />
